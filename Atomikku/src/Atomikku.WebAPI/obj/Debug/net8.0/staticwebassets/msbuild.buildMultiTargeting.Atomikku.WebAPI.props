@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Atomikku.WebAPI.props" />
+</Project>

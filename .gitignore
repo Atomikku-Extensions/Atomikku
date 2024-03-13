@@ -1,0 +1,15 @@
+/.vs
+
+/src/Novelbin.API/bin
+/src/Novelbin.API/obj
+/src/Novelbin.Core/bin
+/src/Novelbin.Core/obj
+/src/Novelbin.Console/bin
+/src/Novelbin.Console/obj
+/src/Novelbin.Lib/bin
+/src/Novelbin.Lib/obj
+
+/tests/Novelbin.Core.Tests/bin
+/tests/Novelbin.Core.Tests/obj
+/src/Novelbin.Core/bin
+/src/Novelbin.Core/obj

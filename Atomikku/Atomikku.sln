@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{330AC7B0-B356-4DC1-9419-0285CED0F113}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{45381CC6-BC10-47EE-AEFC-0E9163ADD9CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomikku.Core", "src\Atomikku.Core\Atomikku.Core.csproj", "{9897092B-8398-4204-BF8A-719819FF65FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomikku.WebAPI", "src\Atomikku.WebAPI\Atomikku.WebAPI.csproj", "{6338DFAA-44D3-46F9-BA30-B71ECDA90DAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9897092B-8398-4204-BF8A-719819FF65FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9897092B-8398-4204-BF8A-719819FF65FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9897092B-8398-4204-BF8A-719819FF65FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9897092B-8398-4204-BF8A-719819FF65FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6338DFAA-44D3-46F9-BA30-B71ECDA90DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6338DFAA-44D3-46F9-BA30-B71ECDA90DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6338DFAA-44D3-46F9-BA30-B71ECDA90DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6338DFAA-44D3-46F9-BA30-B71ECDA90DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9897092B-8398-4204-BF8A-719819FF65FA} = {330AC7B0-B356-4DC1-9419-0285CED0F113}
+		{6338DFAA-44D3-46F9-BA30-B71ECDA90DAE} = {330AC7B0-B356-4DC1-9419-0285CED0F113}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E799ED09-88C0-42E2-9E66-33A536F49426}
+	EndGlobalSection
+EndGlobal
